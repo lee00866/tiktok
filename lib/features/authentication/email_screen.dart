@@ -65,7 +65,7 @@ class _EmailScreenState extends State<EmailScreen> {
     return GestureDetector(
       onTap: _onScaffoldTap,
       child: Scaffold(
-        appBar: AppBar(title: const Text("Sign Up")),
+        appBar: AppBar(title: const Text("Email")),
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: Sizes.size36),
           child: Column(
